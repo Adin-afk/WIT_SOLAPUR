@@ -638,7 +638,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 @media (max-width: 960px) {
   .hero-swiper { height: 70vh; min-height: 480px; }
   .hero-nav { display: none; }
-  .hero-pagination { bottom: 70px !important; }
+  .hero-pagination { bottom: 40px !important; }
   .stat-divider { display: none; }
   .stat-strip-inner { gap: 0; overflow-x: auto; }
   .stat-item { padding: .85rem 1.25rem; }
