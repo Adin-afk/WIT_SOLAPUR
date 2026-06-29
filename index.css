@@ -1087,7 +1087,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 .recruiter-chips span:hover { background: rgba(255,255,255,.15); }
 
-@media (max-width: 768px) { .career-stats-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) { .career-stats-grid { grid-template-columns: auto; } }
 
 
 .success-section {
