@@ -722,7 +722,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   .stat-item{
     width: 300px;
   }
-  .rankings-grid { grid-template-columns: 450px; } 
+  .rankings-grid { grid-template-columns: auto; } 
 }
 
 
