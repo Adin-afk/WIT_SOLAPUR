@@ -1645,6 +1645,9 @@ iframe{
   .hero-nav{
     display: none;
   }
+  .header-inner{
+    justify-content: space-between;
+  }
 }
 @media (max-width: 680px) {
   .footer-brand-row { flex-direction: column; align-items: flex-start; }
