@@ -638,7 +638,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 @media (max-width: 960px) {
   .hero-swiper { height: 70vh; min-height: 480px; }
   .hero-nav { display: none; }
-  .hero-pagination { bottom: 72px !important; }
+  .hero-pagination { bottom: 40px !important; }
   .stat-divider { display: none; }
   .stat-strip-inner { gap: 0; overflow-x: auto; }
   .stat-item { padding: .85rem 1.25rem; }
@@ -715,7 +715,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 
 @media (max-width: 900px)  { .rankings-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 540px)  { .rankings-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px)  { 
+  .stat-item{
+    width: 300px;
+  }
+  .rankings-grid { grid-template-columns: 450px; } 
+}
 
 
 .why-section {
