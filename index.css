@@ -636,7 +636,13 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 
 @media (max-width: 960px) {
-  .hero-swiper { height: 70vh; min-height: 480px; }
+  .hero-swiper {
+    height: 70vh; 
+    min-height: 480px; 
+  }
+  .hero-slide-bg{
+    object-fit:fill;
+  }
   .hero-nav { display: none; }
   .hero-pagination { bottom: 20px !important; }
   .stat-divider { display: none; }
@@ -644,7 +650,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   .stat-item { padding: .85rem 1.25rem; }
 }
 @media (max-width: 640px) {
-  .hero-swiper { height: 72vh; min-height: 420px; }
+  .hero-swiper { height: 74vh; min-height: 420px; }
   .hero-heading { font-size: 2rem; }
   .hero-content { padding: 0 1.25rem; }
   .hero-btn-primary { padding: .75rem 1.5rem; }
