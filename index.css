@@ -640,9 +640,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
     height: 70vh; 
     min-height: 480px; 
   }
-  .hero-slide-bg{
-    object-fit:fill;
-  }
   .hero-nav { display: none; }
   .hero-pagination { bottom: 20px !important; }
   .stat-divider { display: none; }
