@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WIT Solapur — Walchand Institute of Technology</title>
+  <meta name="description" content="Walchand Institute of Technology, Solapur — Shaping Engineers, Innovators and Leaders since 1983." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+
+     <!-- TOP BAR -->
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <span><i class="fa-solid fa-phone-volume"></i> 0217 265 2700</span>
+      <span><i class="fa-solid fa-envelope"></i> principal@witsolapur.org</span>
+    </div>
+    <div class="topbar-right">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" class="topbar-portal-btn">Student Portal <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <!-- Brand -->
+    <a href="/" class="brand" aria-label="WIT Solapur home">
+      <div class="brand-logo-wrap">
+        <img src="Assets/wit_logo-no-bg.png" alt="WIT Logo" class="logo" width="64" height="64" />
+      </div>
+      <div class="brand-text-wrap">
+        <span class="brand-name">Walchand Institute of Technology</span>
+        <span class="brand-tagline">Autonomous | NAAC A+ | NBA Accredited</span>
+        <div class="brand-accent-line"></div>
+      </div>
+    </a>
+
+<!-- navbar -->
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <ul class="nav-list" role="list">
+        <li class="nav-item has-dropdown">
+          <a href="#" class="nav-link">About <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <div class="mega-dropdown">
+            <ul role="list">
+              <li><a href="#">History &amp; Vision</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Governance</a></li>
+              <li><a href="#">NAAC &amp; Rankings</a></li>
+              <li><a href="#">Campus Life</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="#" class="nav-link">Academics <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <div class="mega-dropdown">
+            <ul role="list">
+              <li><a href="#">B.E. Programs</a></li>
+              <li><a href="#">M.E. Programs</a></li>
+              <li><a href="#">Ph.D. Research</a></li>
+              <li><a href="#">Departments</a></li>
+              <li><a href="#">Syllabus &amp; Results</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item has-dropdown">
+          <a href="#" class="nav-link">Research <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <div class="mega-dropdown">
+            <ul role="list">
+              <li><a href="#">Research Centers</a></li>
+              <li><a href="#">Publications</a></li>
+              <li><a href="#">Patents</a></li>
+              <li><a href="#">Industry Collaborations</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Placements</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Alumni</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CTA -->
+    <div class="header-actions">
+      <a href="#" class="btn-apply">Apply Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <button class="mobile-close" id="mobile-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      <ul role="list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Placements</a></li>
+        <li><a href="#">Alumni</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" class="mobile-apply-btn">Apply Now</a>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" aria-label="Hero slideshow">
+  <div class="swiper hero-swiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide hero-slide"
+           style="--bg: url('Assets/wit-solapur-heroimg.png'); --overlay: linear-gradient(110deg,rgba(3,18,60,.82) 45%, rgba(3,18,60,.35) 100%)">
+        <div class="hero-slide-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-trophy"></i> NAAC A+ Accredited Institution</span>
+          <h1 class="hero-heading">Shape Your <br><em>Engineering</em><br>Future Here</h1>
+          <p class="hero-sub">40+ years of excellence in technical education. 9,000+ alumni powering global industries.</p>
+          <div class="hero-actions">
+            <a href="#" class="hero-btn-primary">Explore Programs</a>
+            <a href="#" class="hero-btn-ghost">
+              <span class="play-ring"><i class="fa-solid fa-play"></i></span>
+              Watch Campus Tour
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide hero-slide"
+           style="--bg: url('Assets/slide2.jpeg'); --overlay: linear-gradient(110deg,rgba(6,50,30,.85) 45%, rgba(6,50,30,.35) 100%)">
+        <div class="hero-slide-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-microscope"></i> Premier Research Institution</span>
+          <h1 class="hero-heading">Innovate.<br><em>Research.</em><br>Impact.</h1>
+          <p class="hero-sub">State-of-the-art labs, active R&amp;D centers, and industry-funded research programs.</p>
+          <div class="hero-actions">
+            <a href="#" class="hero-btn-primary">View Research</a>
+            <a href="#" class="hero-btn-ghost">
+              <span class="play-ring"><i class="fa-solid fa-play"></i></span>
+              Our Publications
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide hero-slide"
+           style="--bg: url('Assets/slide7.jpeg'); --overlay: linear-gradient(110deg,rgba(60,25,3,.85) 45%, rgba(60,25,3,.35) 100%)">
+        <div class="hero-slide-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-briefcase"></i> 100% Placement Assistance</span>
+          <h1 class="hero-heading">Top Careers<br>Start <em>Right</em><br>Here.</h1>
+          <p class="hero-sub">Partnered with 200+ recruiters. Average package ₹7.2 LPA. Top offer ₹38 LPA.</p>
+          <div class="hero-actions">
+            <a href="#" class="hero-btn-primary">Placement Report</a>
+            <a href="#" class="hero-btn-ghost">
+              <span class="play-ring"><i class="fa-solid fa-play"></i></span>
+              Alumni Stories
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Navigation -->
+    <button class="swiper-button-prev hero-nav" aria-label="Previous slide"></button>
+    <button class="swiper-button-next hero-nav" aria-label="Next slide"></button>
+    <div class="swiper-pagination hero-pagination" role="tablist" aria-label="Slide navigation"></div>
+  </div>
+
+  <!-- Stats -->
+  <div class="hero-stat-strip">
+    <div class="stat-strip-inner">
+      <div class="stat-item">
+        <strong>40+</strong><span>Years of Excellence</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong>12</strong><span>Engineering Departments</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong>9,000+</strong><span>Alumni Worldwide</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong>₹38 LPA</strong><span>Highest Package</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <strong>NAAC A+</strong><span>Accreditation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RANKINGS -->
+<section class="rankings-section" aria-label="Rankings and accreditations">
+  <div class="section-container">
+    <div class="rankings-header">
+      <p class="section-eyebrow">Recognized By</p>
+      <h2 class="rankings-title">Nationally Ranked. Globally Respected.</h2>
+    </div>
+    <div class="rankings-grid">
+      <article class="ranking-card">
+        <div class="ranking-logo-wrap">
+          <img src="Assets/naac_credit.png" alt="NAAC" class="ranking-logo" width="80" height="80" loading="lazy" />
+        </div>
+        <div class="ranking-info">
+          <strong class="ranking-value">A+</strong>
+          <span class="ranking-label">NAAC Grade</span>
+        </div>
+      </article>
+      <article class="ranking-card">
+        <div class="ranking-logo-wrap">
+          <img src="Assets/nba_credit.png" alt="NBA" class="ranking-logo" width="80" height="80" loading="lazy" />
+        </div>
+        <div class="ranking-info">
+          <strong class="ranking-value">NBA</strong>
+          <span class="ranking-label">Accredited Programs</span>
+        </div>
+      </article>
+      <article class="ranking-card">
+        <div class="ranking-logo-wrap">
+          <img src="Assets/nirf_credit.png" alt="NIRF" class="ranking-logo" width="80" height="80" loading="lazy" />
+        </div>
+        <div class="ranking-info">
+          <strong class="ranking-value">Top 150</strong>
+          <span class="ranking-label">NIRF Engineering</span>
+        </div>
+      </article>
+      <article class="ranking-card">
+        <div class="ranking-logo-wrap">
+          <img src="Assets/AICTE LOGO.png" alt="AICTE" class="ranking-logo" width="80" height="80" loading="lazy" />
+        </div>
+        <div class="ranking-info">
+          <strong class="ranking-value">AICTE</strong>
+          <span class="ranking-label">Approved Institution</span>
+        </div>
+      </article>
+      <article class="ranking-card">
+        <div class="ranking-logo-wrap">
+          <img src="Assets/iqac_credit.png" alt="SUO" class="ranking-logo" width="80" height="80" loading="lazy" />
+        </div>
+        <div class="ranking-info">
+          <strong class="ranking-value">Autonomous</strong>
+          <span class="ranking-label">University Affiliation</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY WIT -->
+<section class="why-section" aria-labelledby="why-heading">
+  <div class="section-container">
+    <div class="why-layout">
+      <div class="why-left">
+        <p class="section-eyebrow">Why Choose WIT</p>
+        <h2 class="why-heading" id="why-heading">Built for the <br>Engineers of Tomorrow</h2>
+        <p class="why-intro">WIT Solapur combines rigorous academics with industry-ready training, world-class research, and a culture that shapes well-rounded professionals.</p>
+        <div class="why-campus-img" role="img" aria-label="WIT campus overview"></div>
+        <a href="#" class="btn-primary-solid">Discover WIT <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="why-right">
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true"><i class="fa-solid fa-flask-vial"></i></div>
+            <h3>State-of-the-Art Labs</h3>
+            <p>60+ advanced laboratories equipped with industry-grade equipment and tools for hands-on learning.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true"><i class="fa-solid fa-handshake"></i></div>
+            <h3>Industry Partnerships</h3>
+            <p>200+ MoUs with leading companies including TCS, Infosys, ISRO, and Bosch for live projects and internships.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Expert Faculty</h3>
+            <p>95% faculty with Ph.D. qualifications and active research profiles. International academic exchange programs.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true"><i class="fa-solid fa-trophy"></i></div>
+            <h3>Student Achievements</h3>
+            <p>Students win national hackathons, GATE toppers, and represent India in international competitions annually.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true"><i class="fa-solid fa-building-columns"></i></div>
+            <h3>Rich Campus Life</h3>
+            <p>25+ student clubs, cultural fests, sports facilities, and a vibrant hostel community across 14 acres.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Proven Placements</h3>
+            <p>Consistent 90%+ placement rate for eligible students. Dedicated training and placement cell since 1990.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="programs-section" aria-labelledby="programs-heading">
+  <div class="section-container">
+    <div class="programs-header">
+      <p class="section-eyebrow">Academic Programs</p>
+      <h2 id="programs-heading" class="programs-title">Choose Your <span>Engineering Path</span></h2>
+      <p class="programs-subtitle">6 undergraduate programs designed with the future of technology in mind.</p>
+    </div>
+
+    <div class="programs-slider-wrap">
+      <button class="programs-arrow programs-prev" aria-label="Previous programs">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button class="programs-arrow programs-next" aria-label="Next programs">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <div class="swiper programs-swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <article class="program-card">
+              <div class="program-card-img" style="background-image:url('Assets/dept-cs.jpg')">
+                <span class="program-badge">B.TECH</span>
+                <h3 class="program-img-title">Computer Science &amp; Engineering</h3>
+              </div>
+              <div class="program-card-body">
+                <div class="program-meta">
+                  <div class="program-meta-item"><span class="meta-label">Intake</span><span class="meta-val">120 seats</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Duration</span><span class="meta-val">4 Years</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Avg. Package</span><span class="meta-val">₹9.4 LPA</span></div>
+                </div>
+                <div class="program-tags">
+                  <span>AI &amp; ML</span><span>Cybersecurity</span><span>Cloud</span><span>Data Science</span>
+                </div>
+                <a href="#" class="program-explore-btn">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="program-card">
+              <div class="program-card-img" style="background-image:url('Assets/dept-mech.jpg')">
+                <span class="program-badge">B.TECH</span>
+                <h3 class="program-img-title">Mechanical Engineering</h3>
+              </div>
+              <div class="program-card-body">
+                <div class="program-meta">
+                  <div class="program-meta-item"><span class="meta-label">Intake</span><span class="meta-val">120 seats</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Duration</span><span class="meta-val">4 Years</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Avg. Package</span><span class="meta-val">₹6.8 LPA</span></div>
+                </div>
+                <div class="program-tags">
+                  <span>CAD/CAM</span><span>Robotics</span><span>Thermal</span><span>Manufacturing</span>
+                </div>
+                <a href="#" class="program-explore-btn">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="program-card">
+              <div class="program-card-img" style="background-image:url('Assets/dept-civil.jpg')">
+                <span class="program-badge">B.TECH</span>
+                <h3 class="program-img-title">Civil Engineering</h3>
+              </div>
+              <div class="program-card-body">
+                <div class="program-meta">
+                  <div class="program-meta-item"><span class="meta-label">Intake</span><span class="meta-val">60 seats</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Duration</span><span class="meta-val">4 Years</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Avg. Package</span><span class="meta-val">₹5.5 LPA</span></div>
+                </div>
+                <div class="program-tags">
+                  <span>Structural</span><span>Geotechnical</span><span>Transportation</span><span>Environmental</span>
+                </div>
+                <a href="#" class="program-explore-btn">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="program-card">
+              <div class="program-card-img" style="background-image:url('Assets/dept-elex.jpg')">
+                <span class="program-badge">B.TECH</span>
+                <h3 class="program-img-title">Electronics &amp; Telecommunication</h3>
+              </div>
+              <div class="program-card-body">
+                <div class="program-meta">
+                  <div class="program-meta-item"><span class="meta-label">Intake</span><span class="meta-val">60 seats</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Duration</span><span class="meta-val">4 Years</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Avg. Package</span><span class="meta-val">₹7.2 LPA</span></div>
+                </div>
+                <div class="program-tags">
+                  <span>VLSI</span><span>IoT</span><span>5G/6G</span><span>Embedded Systems</span>
+                </div>
+                <a href="#" class="program-explore-btn">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="swiper-slide">
+            <article class="program-card">
+              <div class="program-card-img" style="background-image:url('Assets/dept-electrical.jpg')">
+                <span class="program-badge">B.TECH</span>
+                <h3 class="program-img-title">Electrical Engineering</h3>
+              </div>
+              <div class="program-card-body">
+                <div class="program-meta">
+                  <div class="program-meta-item"><span class="meta-label">Intake</span><span class="meta-val">60 seats</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Duration</span><span class="meta-val">4 Years</span></div>
+                  <div class="program-meta-item"><span class="meta-label">Avg. Package</span><span class="meta-val">₹6.2 LPA</span></div>
+                </div>
+                <div class="program-tags">
+                  <span>Power Systems</span><span>Renewable Energy</span><span>Control</span><span>Drives</span>
+                </div>
+                <a href="#" class="program-explore-btn">Explore Program <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+        <div class="swiper-pagination programs-pagination"></div>
+      </div>
+    </div>
+
+    <div class="programs-all-link">
+      <a href="#">View All Programs <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- CAREER -->
+<section class="career-section" aria-labelledby="career-heading">
+  <div class="career-bg-art" aria-hidden="true"></div>
+  <div class="section-container career-inner">
+    <div class="career-header">
+      <p class="section-eyebrow eyebrow-light">Career Outcomes</p>
+      <h2 class="career-title" id="career-heading">Your Success is Our Benchmark</h2>
+      <p class="career-sub">Industry leaders trust WIT graduates. Our placement cell works 365 days a year to connect students with their ideal careers.</p>
+    </div>
+    <div class="career-stats-grid">
+      <div class="career-stat-card">
+        <strong>60%</strong>
+        <span>Placement Rate<br>(2023–24)</span>
+      </div>
+      <div class="career-stat-card">
+        <strong>₹38 LPA</strong>
+        <span>Highest<br>Package</span>
+      </div>
+      <div class="career-stat-card">
+        <strong>₹7.2 LPA</strong>
+        <span>Average<br>Package</span>
+      </div>
+      <div class="career-stat-card">
+        <strong>200+</strong>
+        <span>Recruiting<br>Companies</span>
+      </div>
+    </div>
+    <div class="recruiters-block">
+      <p class="recruiters-label">Top Recruiters</p>
+      <div class="recruiter-chips">
+        <span>TCS</span><span>Infosys</span><span>Wipro</span><span>Cognizant</span><span>Bosch</span>
+        <span>ISRO</span><span>L&amp;T</span><span>Bajaj Auto</span><span>KPIT</span><span>Persistent</span>
+        <span>Microsoft</span><span>Capgemini</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORIES -->
+<section class="success-section" aria-labelledby="success-heading">
+  <div class="section-container">
+    <div class="success-header">
+      <p class="section-eyebrow">Alumni Stories</p>
+      <h2 id="success-heading">What Our Graduates Say</h2>
+    </div>
+
+    <div class="swiper success-swiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <article class="story-card">
+            <div class="story-quote-icon" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"WIT gave me not just technical knowledge but the confidence to lead. The professors challenged us beyond the textbook and the placements team was genuinely invested in our success."</p>
+            <div class="story-meta">
+              <div class="story-avatar" aria-hidden="true">RP</div>
+              <div>
+                <strong>Rahul Patil</strong>
+                <span>Senior Software Engineer, Microsoft · CSE 2019</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="story-card">
+            <div class="story-quote-icon" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"The research culture at WIT is exceptional. My final-year project led directly to a patent and a Ph.D. offer from IIT Bombay. No other college in the region offers this kind of mentorship."</p>
+            <div class="story-meta">
+              <div class="story-avatar story-avatar--teal" aria-hidden="true">PS</div>
+              <div>
+                <strong>Priya Sharma</strong>
+                <span>Ph.D. Researcher, IIT Bombay · Mech. 2020</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="story-card">
+            <div class="story-quote-icon" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"From the first year, WIT exposed us to real-world problems. The industry visits, live projects, and faculty mentorship helped me secure a pre-placement offer before my final semester."</p>
+            <div class="story-meta">
+              <div class="story-avatar story-avatar--gold" aria-hidden="true">AK</div>
+              <div>
+                <strong>Aditya Kulkarni</strong>
+                <span>Product Manager, Infosys · ECE 2021</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="story-card">
+            <div class="story-quote-icon" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></div>
+            <p>"I walked into WIT with dreams and walked out with the skills, network, and courage to start my own company. We closed Series A funding two years after graduation. WIT made that possible."</p>
+            <div class="story-meta">
+              <div class="story-avatar story-avatar--red" aria-hidden="true">SM</div>
+              <div>
+                <strong>Snehal More</strong>
+                <span>Co-founder &amp; CTO, BuildStack · Civil 2018</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+      <div class="swiper-button-prev success-prev feedback-nav" aria-label="Previous testimonial"></div>
+      <div class="swiper-button-next success-next feedback-nav" aria-label="Next testimonial"></div>
+      <div class="swiper-pagination success-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="news-section" aria-labelledby="news-heading">
+  <div class="section-container">
+    <div class="news-section-header">
+      <div>
+        <p class="section-eyebrow">Latest From WIT</p>
+        <h2 id="news-heading">News &amp; Upcoming Events</h2>
+      </div>
+      <a href="#" class="btn-outline-dark">All News <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <div class="news-layout">
+      <!-- News articles -->
+      <div class="news-main">
+
+        <article class="news-card">
+          <div class="news-card-img news-img-blue" role="img" aria-label="Tech Fest poster"></div>
+          <div class="news-card-body">
+            <div class="news-top">
+              <span class="news-tag">Fest</span>
+              <time class="news-date" datetime="2025-02-14">Feb 14, 2025</time>
+            </div>
+            <h3>WITCHAR 2025 — WIT's Annual Technical Festival Returns</h3>
+            <p>Three days of hackathons, robotics battles, paper presentations, and live project demos open to all engineering colleges.</p>
+            <a href="#" class="news-read-more">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img news-img-purple" role="img" aria-label="Research award ceremony"></div>
+          <div class="news-card-body">
+            <div class="news-top">
+              <span class="news-tag news-tag--research">Research</span>
+              <time class="news-date" datetime="2025-01-28">Jan 28, 2025</time>
+            </div>
+            <h3>WIT Faculty Wins DST SERB Research Grant of ₹42 Lakhs</h3>
+            <p>Dr. Anil Marathe, Dept. of Mechanical Engineering, secures prestigious national research grant for his work in Additive Manufacturing.</p>
+            <a href="#" class="news-read-more">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card-img news-img-green" role="img" aria-label="Placement drive"></div>
+          <div class="news-card-body">
+            <div class="news-top">
+              <span class="news-tag news-tag--placement">Placements</span>
+              <time class="news-date" datetime="2025-01-10">Jan 10, 2025</time>
+            </div>
+            <h3>Microsoft Visits WIT for Campus Recruitment Drive 2025</h3>
+            <p>14 students from CSE and ECE departments receive offers from Microsoft India with packages starting at ₹18 LPA.</p>
+            <a href="#" class="news-read-more">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Events sidebar -->
+      <aside class="news-sidebar" aria-label="Upcoming events">
+        <div class="sidebar-heading">
+          <h3><i class="fa-regular fa-calendar-check" aria-hidden="true"></i> Upcoming Events</h3>
+        </div>
+        <div class="event-list">
+          <div class="event-item">
+            <div class="event-date"><span class="event-day">22</span><span class="event-month">FEB</span></div>
+            <div class="event-details">
+              <span class="event-cat">Workshop</span>
+              <p>AI &amp; Machine Learning Bootcamp — 3-Day Intensive</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-date"><span class="event-day">01</span><span class="event-month">MAR</span></div>
+            <div class="event-details">
+              <span class="event-cat">Seminar</span>
+              <p>Industry Leaders Talk: Future of EV Technology</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-date"><span class="event-day">08</span><span class="event-month">MAR</span></div>
+            <div class="event-details">
+              <span class="event-cat">Cultural</span>
+              <p>ATHARVA 2025 — Annual Cultural Festival at WIT</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-date"><span class="event-day">15</span><span class="event-month">MAR</span></div>
+            <div class="event-details">
+              <span class="event-cat">Placement</span>
+              <p>TCS & Wipro Mass Recruitment Drive — All Branches</p>
+            </div>
+          </div>
+          <div class="event-item">
+            <div class="event-date"><span class="event-day">22</span><span class="event-month">MAR</span></div>
+            <div class="event-details">
+              <span class="event-cat">Sports</span>
+              <p>Inter-Collegiate Sports Carnival — Registrations Open</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="sidebar-all-events">View All Events <i class="fa-solid fa-arrow-right"></i></a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- VIRTUAL TOUR -->
+<section class="tour-section" aria-labelledby="tour-heading">
+  <div class="section-container">
+    <div class="tour-layout">
+      <div class="tour-media">
+          <iframe
+        src="https://www.youtube.com/embed/nZt9ZS99rAw"
+        title="Campus Tour"
+        allowfullscreen>
+      </iframe>
+     
+        <div class="tour-badges-row">
+          <span class="tour-badge"><i class="fa-solid fa-wifi" aria-hidden="true"></i> Smart Campus</span>
+          <span class="tour-badge"><i class="fa-solid fa-leaf" aria-hidden="true"></i> Green Campus</span>
+          <span class="tour-badge"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> 24×7 Security</span>
+        </div>
+      </div>
+      <div class="tour-content">
+        <p class="section-eyebrow">Campus Life</p>
+        <h2 id="tour-heading">Experience Life at WIT Solapur</h2>
+        <p>Spread across a lush 14-acre campus in the heart of Solapur, WIT offers students a vibrant, safe, and fully-connected environment for academic and personal growth.</p>
+        <ul class="tour-points" role="list">
+          <li><i class="fa-solid fa-check-circle" aria-hidden="true"></i> 40+ High-tech labs &amp; research centers</li>
+          <li><i class="fa-solid fa-check-circle" aria-hidden="true"></i> Boys &amp; Girls hostels with modern amenities</li>
+          <li><i class="fa-solid fa-check-circle" aria-hidden="true"></i> Tech events supporting students growth. </li>
+          <li><i class="fa-solid fa-check-circle" aria-hidden="true"></i> Central library with 10,000+ volumes</li>
+          <li><i class="fa-solid fa-check-circle" aria-hidden="true"></i> Student startup incubator &amp; innovation hub</li>
+        </ul>
+        <a href="#" class="btn-primary-solid">Explore Campus <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CTA BANNER
+════════════════════════════════════════════════ -->
+<section class="cta-section" aria-label="Admissions call to action">
+  <div class="section-container cta-inner">
+    <div class="cta-text">
+      <h2>Ready to Begin Your Engineering Journey?</h2>
+      <p>Admissions 2025–26 are open. Secure your seat at one of Maharashtra's top engineering institutes.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="#" class="cta-btn-primary">Apply for Admissions</a>
+      <a href="#" class="cta-btn-outline">Download Brochure</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-top">
+    <div class="footer-brand-row">
+      <div class="footer-brand-block">
+        <img src="Assets/wit_logo-no-bg.png" alt="WIT Solapur logo" class="footer-logo" width="64" height="64" loading="lazy" />
+        <div class="footer-brand-text">
+          <p class="footer-brand-name">Walchand Institute of Technology</p>
+          <p class="footer-brand-sub">Solapur, Maharashtra — 413006</p>
+        </div>
+      </div>
+      <div class="footer-contacts">
+        <a href="tel:+912172730011" class="footer-contact-item">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          <span>0217 265 2700 </span>
+        </a>
+        <a href="mailto:info@wit.edu" class="footer-contact-item">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          <span>principal@witsolapur.org</span>
+        </a>
+        <a href="#" class="footer-contact-item">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <span>Solapur, Maharashtra </span>
+        </a>
+      </div>
+      <div class="footer-social">
+        <p class="footer-follow-label">Follow Us</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-links-row">
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <h5>About WIT</h5>
+        <a href="#">History &amp; Mission</a>
+        <a href="#">Leadership &amp; Governance</a>
+        <a href="#">NAAC &amp; Accreditation</a>
+        <a href="#">NIRF Rankings</a>
+        <a href="#">Annual Reports</a>
+      </div>
+      <div class="footer-col">
+        <h5>PROGRAMMES</h5>
+        <a href="#">Computer Science </a>
+        <a href="#">Information Technology</a>
+        <a href="#">Electronics and Telecommunication</a>
+        <a href="#">Mechanical & Automation </a>
+        <a href="#">Civil Engineering </a>
+      </div>
+      <div class="footer-col">
+        <h5>Student Life</h5>
+        <a href="#">Clubs &amp; Committees</a>
+        <a href="#">Tech Fest</a>
+        <a href="#">Annual Day</a>
+        <a href="#">WITCHAR-2025</a>
+        <a href="#">Hostel Facilities</a>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="#">Admissions 2025</a>
+        <a href="#">Placements</a>
+        <a href="#">Alumni Network</a>
+        <a href="#">Research &amp; Innovation</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Walchand Institute of Technology, Solapur. All rights reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════
+     BACK TO TOP
+════════════════════════════════════════════════ -->
+<button class="back-to-top" id="back-to-top" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
